@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style>
+
+        body, html{
+            margin: 0;
+            font: 16px , 'lato' sans-serif;
+            color: #777;
+            height: 100%;   /*Segredo para fazer Parallax*/ 
+                      
+        }
+
+        .conteudo{
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding-left: 50px 80px;
+        }
+
+        h3{
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        p{
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-right: 15px;
+        }
+
+        /*Efeito Parallax*/
+
+        .caixa1, .caixa2 , .caixa3, .caixa4, .caixa5, .caixa6 {
+            height: 100%;
+            opacity: 0.8;/*Colocar transparência na imagem pode ser entre 0.1 e 1.0*/            
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        .caixa1{
+            background-image: url(img/imagem1.jpg);
+        }
+
+        .caixa2{
+            background-image: url(img/imagem2.jpg);
+        }
+
+        .caixa3{
+            background-image: url(img/imagem3.jpg);
+        }
+
+        .caixa4{
+            background-image: url(img/imagem4.jpg);
+        }
+
+        .caixa5{
+            background-image: url(img/imagem5.jpg);
+        }
+
+        .caixa6{
+            background-image: url(img/imagem6.jpg);
+        }
+
+        .conteudo-titulo{
+            position: absolute;
+            left: 0;
+            top: 45%;
+            width: 100%;   
+            text-align: center;
+        }
+        
+        .conteudo-titulo span.titulo{
+            color: #fff;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="caixa1">
+       <div class="conteudo-titulo">
+            <span class="titulo">PASSEIO DE BALÕES</span>
+       </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+       <p>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, laborum 
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio facere illo quis nam voluptas error, esse accusantium porro molestiae in temporibus harum alias repellat dolore adipisci cumque ipsam autem. Quaerat?
+       </p>
+       <p>
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quidem id, quis provident architecto ducimus totam beatae autem praesentium veritatis maxime laudantium sint voluptatem debitis fugiat nesciunt voluptatibus ad rerum.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia corporis obcaecati amet optio consequatur magnam aliquam inventore quaerat blanditiis quibusdam sequi, a consequuntur iure placeat dicta, delectus, ea rem?
+
+       </p>
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">NA ESTRADA</span>
+       </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+       <p>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia accusantium voluptatem veniam quibusdam vero voluptatum laudantium commodi pariatur quod. Recusandae a numquam explicabo cum accusantium iste voluptas consequuntur similique. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ducimus natus consequuntur aspernatur reiciendis sunt, enim corrupti? Ex sunt alias nobis eius. Reprehenderit incidunt ad commodi nostrum optio praesentium magni.
+       </p>
+    </div>
+
+    <div class="caixa3">    
+        <div class="conteudo-titulo">
+            <span class="titulo">YOGA</span>
+       </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+       <p>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime perspiciatis quod dolorem dolores corporis aut voluptates ratione fugit alias earum, delectus distinctio amet, itaque mollitia laborum vero quis enim eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis velit magni explicabo harum, sint optio, ducimus accusantium consequatur repudiandae, omnis deleniti reprehenderit ut laudantium minus voluptates? Voluptatum sequi eum voluptatibus.
+       </p>
+       <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, laborum aspernatur provident magnam voluptate voluptatibus numquam voluptates pariatur, eum tempora aut molestiae minus debitis officiis fuga omnis aliquid distinctio. Pariatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex explicabo natus cumque ut dolorem doloremque molestias illo quod dolores libero earum, aliquid consequuntur laboriosam inventore amet corporis, impedit aperiam optio?
+
+       </p>
+    </div>
+    
+    <div class="caixa4">    
+        <div class="conteudo-titulo">
+            <span class="titulo">POR DO SOL</span>
+       </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+       <p>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae at nobis culpa porro repudiandae amet eligendi a. Obcaecati numquam autem, sunt odio, atque quaerat non quasi provident eligendi, officiis optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem minima sit, ex qui nulla maiores atque perferendis, eum numquam, magni ad iusto accusamus esse id facilis aut animi voluptates?
+       </p>
+       <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, laborum aspernatur provident magnam voluptate voluptatibus numquam voluptates pariatur, eum tempora aut molestiae minus debitis officiis fuga omnis aliquid distinctio. Pariatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex explicabo natus cumque ut dolorem doloremque molestias illo quod dolores libero earum, aliquid consequuntur laboriosam inventore amet corporis, impedit aperiam optio?
+           
+       </p>
+    </div>
+
+    <div class="caixa5">    
+        <div class="conteudo-titulo">
+            <span class="titulo">HORIZONTE</span>
+       </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+       <p>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis delectus odio ad rerum, architecto repellendus sint eos reiciendis nostrum voluptatum. Quod eum nihil quisquam libero debitis placeat veniam possimus rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, non sit. Tenetur, animi nulla. Aut quisquam a at temporibus eligendi. Velit, at. Repudiandae quisquam inventore magni tempora, saepe fugit assumenda.
+       </p>
+       <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, laborum aspernatur provident magnam voluptate voluptatibus numquam voluptates pariatur, eum tempora aut molestiae minus debitis officiis fuga omnis aliquid distinctio. Pariatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex explicabo natus cumque ut dolorem doloremque molestias illo quod dolores libero earum, aliquid consequuntur laboriosam inventore amet corporis, impedit aperiam optio?
+           
+       </p>
+    </div>
+
+    <div class="caixa6">    
+        <div class="conteudo-titulo">
+            <span class="titulo">REFLEXÃO</span>
+       </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+       <p>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga.
+       </p>
+
+       <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo labore commodi neque unde quam iure beatae, officia eos. Perferendis praesentium illum debitis commodi tempore impedit quis neque numquam fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, laborum aspernatur provident magnam voluptate voluptatibus numquam voluptates pariatur, eum tempora aut molestiae minus debitis officiis fuga omnis aliquid distinctio. Pariatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex explicabo natus cumque ut dolorem doloremque molestias illo quod dolores libero earum, aliquid consequuntur laboriosam inventore amet corporis, impedit aperiam optio?
+
+       </p>
+    </div>
+
+
+
+</body>
+</html>
